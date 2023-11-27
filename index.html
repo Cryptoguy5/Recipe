@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            color: rgb(25, 69, 202);
+            font-family: 'Life Savers', serif;
+            font-family: 'Petit Formal Script', cursive;
+            font-family: 'Roboto', sans-serif;
+            background-image: url(./brownies-ypwok17uwbuvc1mn.jpg);
+            background-size: cover;
+            padding-left: 50px;
+        }
+
+        .main {
+            height: 85%;
+            width: 35%;
+            border: 10px dotted rgb(25, 69, 202);
+            padding: 20px;
+            background-color: white;
+        }
+
+        .title {
+            height: 15%;
+            width: 100%;
+            display: flex;
+        }
+
+        .side {
+            height: 100%;
+            width: 50%;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+
+        .flex2 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+
+        h1 {
+            margin: 0;
+        }
+        
+        .nomargin {
+            margin: 0;
+        }
+
+        .green {
+            color: green;
+        }
+
+        @media (max-width:680px) {
+            .main {
+                width: 100%;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers&family=Petit+Formal+Script&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+      <div class="title">
+         <div class="side">
+            <h1>Fudge Brownie</h1>
+            <p>Serves 12</p>
+         </div>
+         <div class="side flex">
+            <h2 class="nomargin green">FoodDocs</h2>
+            <p class="nomargin green">Food Safety made easy</p>
+         </div>
+      </div>
+      <div>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>4 Eggs</li>
+            <li>1 Cup of Cocoa</li>
+            <li>1 Teaspoon of Salt</li>
+            <li>1 Teaspoon of Coffee Powder</li>
+            <li>1 Teaspoon of Vanilla</li>
+            <li>2 Cups of Sugar</li>
+            <li>15 Tablespoons of Butter</li>
+            <li>2 Cups of Flour</li>
+        </ul>
+     </div>
+     <div>
+        <h2 class="nomargin">Preperation</h2>
+        <p class="nomargin">Instructions:</p>
+        <ol>
+            <li>Preheat Oven to 350&deg;F</li>
+            <li>Line baking pans with parchment paper.</li>
+            <li>Crack eggs into a bowl and slowly mix all dry ingredients with half the required flour.</li>
+            <li>Melt the butter and add in the sugar and vanilla.</li>
+            <li>Add the butter and sugar mixture to the dry ingredients.</li>
+            <li>Pour the brownies mix onto the pan.</li>
+            <li>Bake the mixture for 25 to 30 minutes.</li>
+            <li>Cool, cut, and serve brownies.</li>
+        </ol>
+     </div>
+    </div>
+</body>
+</html>
